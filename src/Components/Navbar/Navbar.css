@@ -1,0 +1,80 @@
+body{
+    font-family: Metropolis;
+}
+
+
+.navbar{
+    font-family: Metropolis;
+}
+
+.dropbtn {
+    background-color: #f7fdfb;
+    color: rgb(5, 5, 5);
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    font-family: Metropolis;
+  }
+  .dropdown:hover .dropdown-content  {
+    display: grid ;
+    grid-template-columns: repeat(4,1fr);
+   
+  }
+
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    font-family: Metropolis;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family: Metropolis;
+    border-radius: 20px;
+  }
+  .category_a{
+  gap: 10px;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  transition: 0.7s;
+  opacity: 1;
+  padding: 8px;
+  }
+  .category_a:hover{
+    opacity: 0.6;
+    transition: 0.5s;
+    color: black;
+    
+  }
+  .category_a h6{
+    padding-top: 8px;
+    font-size: 17px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: Metropolis;
+  }
+  .li__a{
+    color: black;
+  }
+  .li__a:hover{
+    color: red;
+  }
+  
+  .dropdown-content a:hover {background-color: rgb(255, 255, 255);}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #ffffff;}

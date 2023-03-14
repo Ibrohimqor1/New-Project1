@@ -1,0 +1,30 @@
+.next_name{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    
+    padding-left: 10px;
+}
+.next_name img{
+    padding-left: 20px;
+}
+.Borderku{
+    border: none;
+}
+.next{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    overflow-x: scroll;
+    margin-top: 20px;
+    
+}
+.next_name h2{
+    font-size: 12px;
+}
+.next_name img{
+    height: 50px;
+}

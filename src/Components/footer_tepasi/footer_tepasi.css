@@ -1,0 +1,17 @@
+
+
+
+.footer_tepasi{
+    height: max-content;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    
+   
+}
+.Footer_up{
+    background-color: black;
+    color: white;
+
+}

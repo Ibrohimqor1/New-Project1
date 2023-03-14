@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+
+::-webkit-scrollbar
+{
+    width: 0;
+}
+
+*{
+    scroll-behavior: smooth;
+}
+
